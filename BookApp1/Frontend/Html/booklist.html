@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bookliststyle.css" rel="stylesheet" type="text/css" />
+    <title>Books </title>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <form class="Search">
+                    <input type="text" placeholder="Search">
+                </form>
+            </li>
+            <li><a href="/Frontend/authorlist.html">Authors</a></li>
+            <li><a href="/Frontend/addauthor.html">Add Authors</a></li>
+            <li><a href="">Books</a></li>
+            <li><a href="/Frontend/addbook.html">Add Books</a></li>
+        </ul>
+        <ul>
+            <li>
+                <div class="HelpCentre">
+                    <a href="">Contact Us</a>
+                </div>
+
+            </li>
+        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">Members</button>
+            <div class="dropdown-content">
+                <a href="/Frontend/login.html">Login</a>
+                <a href="/Frontend/signup.html">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h3>Author List</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Photo</th>
+                    <th>Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://tse1.mm.bing.net/th/id/OIP.uhR5T0wF5pP-AW9CdeL8EgHaJw?pid=ImgDet&rs=1" alt="Gandhi" style="width:20%;height: 30%;" ;></td>
+                    <td>Mahatma Gandhi</td>
+                    <td>
+                        <a href="">Details</a>
+                        <a href="">Add to Favorites</a>
+                        <a href="">Edit</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

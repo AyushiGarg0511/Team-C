@@ -1,0 +1,43 @@
+﻿.content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #070110;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+table, th, td {
+    border: 3px solid #000000;
+    border-collapse: collapse;
+    color: black;
+    background-color: rgb(243, 231, 216);
+    opacity: 0.8;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+table a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #a11717e5;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td img {
+    display: block;
+    margin: 0px auto;
+}
